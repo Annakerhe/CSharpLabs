@@ -28,7 +28,7 @@ namespace NetworkView
             int count = Convert.ToInt32(this.numericUpDown1.Value);
             double dist = Convert.ToDouble(this.textBox2.Text);
 
-            PC_Network pc = new PC_Network(name, count, dist);
+            PCNetwork pc = new PCNetwork(name, count, dist);
             MessageBox.Show("Информация о новой компьютерной сети добавлена в БД", "Сообщение для пользователя", MessageBoxButtons.OK, MessageBoxIcon.Information);
             net.Add(pc);
             this.dataGridView1.RowCount++;
@@ -38,7 +38,7 @@ namespace NetworkView
             this.dataGridView1[1, row_index].Value = name;
             this.dataGridView1[2, row_index].Value = count.ToString();
             this.dataGridView1[3, row_index].Value = dist.ToString();
-            this.dataGridView1[4, row_index].Value = pc.Get_quality().ToString();
+            this.dataGridView1[4, row_index].Value = pc.GetQuality().ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,13 +49,13 @@ namespace NetworkView
             this.textBox1.Focus();
         }
 
-        public List<PC_Network> net;
-        public List<Speed_Network> speed_net;
+        public List<PCNetwork> net;
+        public List<SpeedNetwork> speed_net;
 
         private void fmain_Load(object sender, EventArgs e)
         {
-            this.net = new List<PC_Network>();
-            this.speed_net = new List<Speed_Network>();
+            this.net = new List<PCNetwork>();
+            this.speed_net = new List<SpeedNetwork>();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -71,7 +71,7 @@ namespace NetworkView
             double dist = Convert.ToDouble(this.textBox2.Text);
             double speed = Convert.ToDouble(this.textBox3.Text);
 
-            Speed_Network sn = new Speed_Network(name, count, dist, speed);
+            SpeedNetwork sn = new SpeedNetwork(name, count, dist, speed);
             MessageBox.Show("Информация о новой скоростной компьютерной сети добавлена в БД", "Сообщение для пользователя", MessageBoxButtons.OK, MessageBoxIcon.Information);
             speed_net.Add(sn);
             this.dataGridView2.RowCount++;
@@ -82,7 +82,7 @@ namespace NetworkView
             this.dataGridView2[2, row_index].Value = count.ToString();
             this.dataGridView2[3, row_index].Value = dist.ToString();
             this.dataGridView2[4, row_index].Value = speed.ToString();
-            this.dataGridView2[5, row_index].Value = sn.Get_quality().ToString();
+            this.dataGridView2[5, row_index].Value = sn.GetQuality().ToString();
         }
     }
    

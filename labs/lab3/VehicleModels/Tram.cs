@@ -1,20 +1,29 @@
 ﻿
 namespace VehicleModels
 {
-    public class Tram : Public_transport
+    public class Tram : PublicTransport
     {
-        public int Stops_count { get; set; }
-        public double Time_average { get; set; }   
+        public int StopsCount { get; set; }
+        public double TimeAverage { get; set; }   
             
         
-        public double Total_time_stops()
+        public double TotalTimeStops()
         {
-            return Stops_count * Time_average;
+            return StopsCount * TimeAverage;
         }
 
-        public double Total_profit()
+        public double TotalProfit()
         {
-            return Current_pass_count * Cost_ticket;
+            return CurrentPassCount * CostTicket;
+        }
+        public override int GetFine()
+        {            
+                int overspeed = CurrentSpeed - MaxSpeed;
+                if (overspeed < 40) { return 500; }
+                if (overspeed >= 40 && overspeed < 60) {  return 1000; }
+                if (overspeed >= 60 && overspeed < 80) {  return 2500; }              
+                return 5000;               
+            
         }
     }
 }

@@ -22,10 +22,10 @@ namespace VehicleView
         public void Print_info(Tram print, int index)
         {
             dgv[0, index].Value = (index + 1).ToString();
-            dgv[1, index].Value = print.Type_vehicle;
-            dgv[2, index].Value = print.Current_speed.ToString();
-            dgv[3, index].Value = print.Max_speed.ToString();
-            if (print.Is_overspeed() == true)
+            dgv[1, index].Value = print.TypeVehicle;
+            dgv[2, index].Value = print.CurrentSpeed.ToString();
+            dgv[3, index].Value = print.MaxSpeed.ToString();
+            if (print.IsOverSpeed() == true)
             {
                 dgv[4, index].Value = "Да";
             }
@@ -34,9 +34,9 @@ namespace VehicleView
                 dgv[4, index].Value = "Нет";
             }
 
-            dgv[5, index].Value = print.Current_pass_count.ToString();
-            dgv[6, index].Value = print.Max_pass_count.ToString();
-            if (print.Is_overflow() == true)
+            dgv[5, index].Value = print.CurrentPassCount.ToString();
+            dgv[6, index].Value = print.MaxPassCount.ToString();
+            if (print.IsOverFlow() == true)
             {
                 dgv[7, index].Value = "Да";
             }
@@ -44,12 +44,12 @@ namespace VehicleView
             {
                 dgv[7, index].Value = "Нет";
             }
-            dgv[8, index].Value = print.Cost_ticket.ToString();
+            dgv[8, index].Value = print.CostTicket.ToString();
 
-            dgv[9, index].Value = print.Stops_count.ToString();
-            dgv[10, index].Value = print.Time_average.ToString();
-            dgv[11, index].Value = print.Total_time_stops();
-            dgv[12, index].Value = print.Total_profit();
+            dgv[9, index].Value = print.StopsCount.ToString();
+            dgv[10, index].Value = print.TimeAverage.ToString();
+            dgv[11, index].Value = print.TotalTimeStops();
+            dgv[12, index].Value = print.TotalProfit();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,17 +65,20 @@ namespace VehicleView
         private void button2_Click(object sender, EventArgs e)
         {
             Tram t = new Tram();
-            t.Type_vehicle = "Трамвай";
-            t.Current_speed = Convert.ToInt32(this.textBox1.Text);
-            t.Max_speed = Convert.ToInt32(this.textBox5.Text);
-            t.Current_pass_count = Convert.ToInt32(this.textBox2.Text);
-            t.Max_pass_count = Convert.ToInt32(this.textBox3.Text);
-            t.Cost_ticket = Convert.ToInt32(this.textBox4.Text);
-            t.Stops_count = ( int )this.numericUpDown1.Value;
-            t.Time_average = Convert.ToDouble(this.textBox6.Text);
+            t.TypeVehicle = "Трамвай";
+            t.CurrentSpeed = Convert.ToInt32(this.textBox1.Text);
+            t.MaxSpeed = Convert.ToInt32(this.textBox5.Text);
+            t.CurrentPassCount = Convert.ToInt32(this.textBox2.Text);
+            t.MaxPassCount = Convert.ToInt32(this.textBox3.Text);
+            t.CostTicket = Convert.ToInt32(this.textBox4.Text);
+            t.StopsCount = ( int )this.numericUpDown1.Value;
+            t.TimeAverage = Convert.ToDouble(this.textBox6.Text);
 
             trams.Add(t);
-            MessageBox.Show("Информация о новом трамвае успешно добавлена в базу данных.", "Сообщение для пользователя", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (t.IsOverSpeed())
+                MessageBox.Show(t.TypeVehicle +" №"+ trams.Count()+" превысил скорость. Погасите штраф в размере "+ t.GetFine()+".", "Сообщение о штрафе", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            
             this.dgv.RowCount++;
             this.Print_info(t, trams.Count - 1);
         }
