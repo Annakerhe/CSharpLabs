@@ -1,0 +1,12 @@
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\bin\Debug\net6.0\NetworkModel.deps.json
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\bin\Debug\net6.0\NetworkModel.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\bin\Debug\net6.0\NetworkModel.pdb
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.csproj.AssemblyReference.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.AssemblyInfoInputs.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.AssemblyInfo.cs
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.csproj.CoreCompileInputs.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\refint\NetworkModel.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\NetworkModel.pdb
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab2\obj\Debug\net6.0\ref\NetworkModel.dll

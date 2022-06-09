@@ -1,0 +1,12 @@
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\bin\Debug\net6.0\VehicleModels.deps.json
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\bin\Debug\net6.0\VehicleModels.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\bin\Debug\net6.0\VehicleModels.pdb
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.csproj.AssemblyReference.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.AssemblyInfoInputs.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.AssemblyInfo.cs
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.csproj.CoreCompileInputs.cache
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\refint\VehicleModels.dll
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\VehicleModels.pdb
+C:\Users\Anna\Desktop\github\CSharpLabs\labs\lab3\VehicleModels\obj\Debug\net6.0\ref\VehicleModels.dll
