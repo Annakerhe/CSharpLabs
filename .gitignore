@@ -1,8 +1,13 @@
-/labs/lab2/NetworkModels/obj
+/labs/.vs
+/labs/lab2/NetworkModel/bin
+/labs/lab2/NetworkModel/obj
 /labs/lab2/NetworkView/bin
+/labs/lab2/NetworkView/obj
 /labs/lab3/VehicleModels/obj
 /labs/lab3/VehicleModels/bin
 /labs/lab3/VehicleView/bin
 /labs/lab3/VehicleView/obj
 /labs/lab4/VehicleReflectionView/bin
 /labs/lab4/VehicleReflectionView/obj
+/labs/lab4/VehicleReflectionModel/bin
+/labs/lab4/VehicleReflectionModel/obj
