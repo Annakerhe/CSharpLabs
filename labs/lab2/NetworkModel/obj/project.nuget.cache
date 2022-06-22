@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IN7kv3VFoVW4ncGqkBcxa12nFY6hslPhxmqNYNy2jvtyioDsR9Cw5HdtCjq5JhmET0GwX7JxZyDkjCfdr8q1Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anna\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.6\\microsoft.windowsdesktop.app.ref.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

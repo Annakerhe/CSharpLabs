@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetworkModel.csproj" />
+    <ProjectReference Include="..\NetWorkModel\NetworkModel.csproj" />
   </ItemGroup>
 
 </Project>

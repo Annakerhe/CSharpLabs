@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xHGRwQmvciQ/nXUh0ZBRbFjn+mQ4lVHhh0nvzuD//I8903owPl9yROhf9u2jgCTKl7PZT0hC6n9tTXSFVitTFA==",
+  "dgSpecHash": "U2n5oJT5ZvTccNGvR/ZmB7cWvFWyGCaXFlye7ZunyYV6XudxUjceyM+xUad9TTxjGv2Gw/sC6h2MSYy4y9kOmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\VehicleReflectionModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Anna\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.6\\microsoft.windowsdesktop.app.ref.6.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

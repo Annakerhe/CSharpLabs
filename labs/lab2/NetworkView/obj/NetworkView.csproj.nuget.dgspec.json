@@ -4,14 +4,14 @@
     "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkView\\NetworkView.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel.csproj": {
+    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel.csproj",
+        "projectUniqueName": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj",
         "projectName": "NetworkModel",
-        "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel.csproj",
+        "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj",
         "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\obj\\",
+        "outputPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetWorkModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,12 +53,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.6, 6.0.6]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -90,8 +96,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel.csproj": {
-                "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel.csproj"
+              "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetWorkModel\\NetworkModel.csproj": {
+                "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetWorkModel\\NetworkModel.csproj"
               }
             }
           }
@@ -115,6 +121,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.6, 6.0.6]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -123,7 +135,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

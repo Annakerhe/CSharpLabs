@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\VehicleReflectionModel.csproj": {}
+    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\VehicleReflectionModel.csproj": {
+    "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\VehicleReflectionModel.csproj",
-        "projectName": "VehicleReflectionModel",
-        "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\VehicleReflectionModel.csproj",
+        "projectUniqueName": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj",
+        "projectName": "NetworkModel",
+        "projectPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetworkModel\\NetworkModel.csproj",
         "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab4\\VehicleReflectionModel\\obj\\",
+        "outputPath": "C:\\Users\\Anna\\Desktop\\github\\CSharpLabs\\labs\\lab2\\NetWorkModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
